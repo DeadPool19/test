@@ -47,7 +47,8 @@ def check_holiday():
     #print(r_dict)
     noh=r_dict['_returned']
     #print(noh)
-    #print(type(noh))
+    #print(type(noh)) 
+    print('test tset tehiuhaioudhfpoijas d')
     if noh==0:
         holiday_show.delete(0.0,tk.END)
         holiday_show.insert(tk.INSERT,'Therer is no hoidays in the designated period'+'\n')
